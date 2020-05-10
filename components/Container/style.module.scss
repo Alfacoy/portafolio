@@ -1,0 +1,29 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: "650px") {
+  .main {
+    margin: 0 auto;
+    max-width: 90vw;
+  }
+}
+
+@media screen and (min-width: "800px") {
+  .main {
+    margin: 0 auto;
+    max-width: 80vw;
+  }
+}
