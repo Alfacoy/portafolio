@@ -1,0 +1,46 @@
+.Guide {
+  h3 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .Grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 40% 40% 20%;
+    column-gap: 1em;
+    row-gap: 1em;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .Grid_1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .Grid_2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .Grid_3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .Grid_4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}

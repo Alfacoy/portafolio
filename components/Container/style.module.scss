@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,5 +25,12 @@
   .main {
     margin: 0 auto;
     max-width: 80vw;
+  }
+}
+
+@media screen and (min-width: "1200px") {
+  .main {
+    margin: 0 auto;
+    max-width: 70vw;
   }
 }

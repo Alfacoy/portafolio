@@ -1,4 +1,8 @@
 import Container from "../components/Container";
+import Guides from "../components/Guides";
+
+import Card from "../components/Card";
+
 const Home = () => (
   <Container>
     <h1 className="title">
@@ -19,6 +23,13 @@ const Home = () => (
       Lorem Ipsum generado siempre estará libre de repeticiones, humor agregado
       o palabras no características del lenguaje, etc.
     </p>
+    <Card
+      title={"Proyectos"}
+      href={"/[_path]"}
+      link={true}
+      path={"/lista de proyectos"}
+    />
+    <Guides />
 
     <style jsx>{`
       .title {
