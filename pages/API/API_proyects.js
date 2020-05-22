@@ -1,4 +1,4 @@
-export const DATA_PROYECTS = [
+const DATA_PROYECTS = [
   {
     title: "Proyecto 1",
   },
@@ -9,3 +9,5 @@ export const DATA_PROYECTS = [
     title: "Proyecto 3",
   },
 ];
+
+export default DATA_PROYECTS;

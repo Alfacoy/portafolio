@@ -1,4 +1,4 @@
-import { DATA_PROYECTS as DATA } from "../../pages/API/API_proyects";
+import DATA from "../../pages/API/API_proyects";
 import Card from "../Card";
 
 const ListProyects = () => {

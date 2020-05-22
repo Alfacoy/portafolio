@@ -1,4 +1,4 @@
-export const DATA_GUIDES = [
+const DATA_GUIDES = [
   {
     title: "Sanity",
     url: "https://www.notion.so/Sanity-84b4f7f719eb485c9ea87ddf8f497872",
@@ -20,3 +20,5 @@ export const DATA_GUIDES = [
     url: "https://www.notion.so/Next-js-6d542ffef8bb47d6bda49dc09a1b43e9",
   },
 ];
+
+export default DATA_GUIDES;

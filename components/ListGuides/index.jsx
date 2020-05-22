@@ -1,5 +1,5 @@
 import Card from "../Card";
-import { DATA_GUIDES as DATA } from "../../pages/API/API_guides";
+import DATA from "../../pages/API/API_guides";
 
 const ListGuide = () => {
   const lista = DATA.map((item, index) => {
