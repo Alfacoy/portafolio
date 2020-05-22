@@ -53,19 +53,11 @@ a:visited {
   color: #0070f3;
 }
 
-@media screen and (min-width: "800px") {
-  .title {
-    font-size: 4rem;
-  }
-
-  .flex {
-    display: flex;
-    justify-content: space-between;
-  }
-
+@media screen and (min-width: 750px) {
   .main__buttons {
     display: block;
     display: flex;
+    justify-content: center;
   }
 
   .btn {
@@ -77,6 +69,25 @@ a:visited {
     align-items: center;
     margin-top: 0.5em;
     padding: 1rem;
+  }
+}
+
+@media screen and (min-width: "800px") {
+  .title {
+    font-size: 4rem;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main__buttons {
+    display: block;
+    display: flex;
+    justify-content: start;
   }
 }
 
