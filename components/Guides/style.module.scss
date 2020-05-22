@@ -1,4 +1,5 @@
 .Guide {
+  margin-bottom: 0.5em;
   h3 {
     text-transform: uppercase;
     text-align: center;
@@ -12,15 +13,13 @@
     grid-template-rows: 40% 40% 20%;
     column-gap: 1em;
     row-gap: 1em;
-    max-width: 900px;
-    margin: 0 auto;
   }
 
   .Grid_1 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 4;
   }
 
   .Grid_2 {
@@ -38,7 +37,7 @@
   }
 
   .Grid_4 {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;

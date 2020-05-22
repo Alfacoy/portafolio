@@ -1,0 +1,13 @@
+.Proyects {
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .card__proyect {
+    max-width: 30%;
+    height: 200px;
+  }
+}

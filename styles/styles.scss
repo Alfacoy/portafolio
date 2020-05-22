@@ -32,3 +32,31 @@ a {
 a:visited {
   color: black;
 }
+
+.title {
+  line-height: 1.15;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+.title span {
+  color: #0070f3;
+}
+
+@media screen and (min-width: "800px") {
+  .title {
+    font-size: 4rem;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    max-width: 900px;
+  }
+}

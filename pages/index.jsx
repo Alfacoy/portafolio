@@ -1,7 +1,6 @@
 import Container from "../components/Container";
 import Guides from "../components/Guides";
-
-import Card from "../components/Card";
+import Proyects from "../components/Proyects";
 
 const Home = () => (
   <Container>
@@ -23,32 +22,9 @@ const Home = () => (
       Lorem Ipsum generado siempre estará libre de repeticiones, humor agregado
       o palabras no características del lenguaje, etc.
     </p>
-    <Card
-      title={"Proyectos"}
-      href={"/[_path]"}
-      link={true}
-      path={"/lista de proyectos"}
-    />
+
     <Guides />
-
-    <style jsx>{`
-      .title {
-        line-height: 1.15;
-        font-size: 3rem;
-        text-align: center;
-        margin: 0 0 50px 0;
-      }
-
-      .title span {
-        color: #0070f3;
-      }
-
-      @media screen and (min-width: "800px") {
-        .title {
-          font-size: 4rem;
-        }
-      }
-    `}</style>
+    <Proyects />
   </Container>
 );
 
