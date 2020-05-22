@@ -9,6 +9,7 @@ body {
   font-family: "Lato", sans-serif;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 p {
@@ -33,6 +34,14 @@ a:visited {
   color: black;
 }
 
+.main__image {
+  display: none;
+}
+
+.main__buttons {
+  display: none;
+}
+
 .title {
   line-height: 1.15;
   font-size: 3rem;
@@ -53,10 +62,42 @@ a:visited {
     display: flex;
     justify-content: space-between;
   }
+
+  .main__buttons {
+    display: block;
+    display: flex;
+  }
+
+  .btn {
+    display: block;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+    padding: 1rem;
+  }
 }
 
-@media screen and (min-width: 800px) {
-  main {
-    max-width: 900px;
+@media screen and (min-width: 1400px) {
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main__text {
+    width: 70%;
+  }
+
+  .main__image {
+    display: block;
+    width: auto;
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
   }
 }

@@ -2,7 +2,7 @@ import style from "./style.module.scss";
 import Card from "../Card";
 
 const Guides = () => (
-  <section className={style.Guide}>
+  <section id="guides" className={style.Guide}>
     <h3>Ultimas Guias</h3>
     <div className={style.Grid}>
       <Card

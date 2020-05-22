@@ -1,15 +1,21 @@
 import Head from "next/head";
+import Guides from "../Guides";
+import Proyects from "../Proyects";
 import Footer from "../Footer";
 import style from "./style.module.scss";
 
 const Container = ({ children }) => (
-  <div className={style.container}>
+  <main className={style.container}>
     <Head>
       <title>Tecknchips</title>
     </Head>
-    <main className={style.main}>{children}</main>
+    <header className={style.header__main}>{children}</header>
+    <div className={style.toto}>
+      <Guides />
+      <Proyects />
+    </div>
     <Footer />
-  </div>
+  </main>
 );
 
 export default Container;
