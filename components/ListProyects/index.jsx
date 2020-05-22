@@ -1,4 +1,4 @@
-import DATA from "../../pages/API/API_proyects";
+import DATA from "../../data/data_proyects";
 import Card from "../Card";
 
 const ListProyects = () => {
