@@ -1,6 +1,8 @@
 import { useRouter } from "next/router";
 import Container from "../components/Container";
 import ListGuides from "../components/ListGuides";
+import ListProyects from "../components/ListProyects";
+import ListGuide from "../components/ListGuides";
 
 const Test = () => {
   const router = useRouter();
@@ -10,7 +12,7 @@ const Test = () => {
     <Container>
       <h1 className="title">{_path}</h1>
 
-      <ListGuides />
+      {_path == "lista de guias" ? <ListGuides /> : <ListProyects />}
 
       <style jsx>{`
         .title {

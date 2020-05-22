@@ -1,40 +1,15 @@
+import { DATA_PROYECTS as DATA } from "../../pages/API/API_proyects";
 import Card from "../Card";
 
-const ListProyects = () => (
-  <ul>
-    <li>
-      <Card
-        item={""}
-        title={"Sanity"}
-        href={"https://www.notion.so/Sanity-84b4f7f719eb485c9ea87ddf8f497872"}
-        link={false}
-      />
-    </li>
-    <li>
-      <Card
-        item={""}
-        title={"Sanity"}
-        href={"https://www.notion.so/Sanity-84b4f7f719eb485c9ea87ddf8f497872"}
-        link={false}
-      />
-    </li>
-    <li>
-      <Card
-        item={""}
-        title={"Sanity"}
-        href={"https://www.notion.so/Sanity-84b4f7f719eb485c9ea87ddf8f497872"}
-        link={false}
-      />
-    </li>
-    <li>
-      <Card
-        item={""}
-        title={"Sanity"}
-        href={"https://www.notion.so/Sanity-84b4f7f719eb485c9ea87ddf8f497872"}
-        link={false}
-      />
-    </li>
-  </ul>
-);
+const ListProyects = () => {
+  const lista = DATA.map((item) => {
+    return (
+      <li>
+        <Card title={item.title} href={""} />
+      </li>
+    );
+  });
+  return <ul>{lista}</ul>;
+};
 
 export default ListProyects;
