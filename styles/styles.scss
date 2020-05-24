@@ -76,18 +76,11 @@ a:visited {
   .title {
     font-size: 4rem;
   }
-
-  .flex {
-    display: flex;
-    justify-content: space-between;
-  }
 }
 
 @media screen and (min-width: 1200px) {
   .main__buttons {
     display: block;
-    display: flex;
-    justify-content: start;
   }
 }
 
