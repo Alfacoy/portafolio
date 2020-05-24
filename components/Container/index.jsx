@@ -5,15 +5,14 @@ import Footer from "../Footer";
 import style from "./style.module.scss";
 
 const Container = ({ children }) => (
-  <main className={style.container}>
+  <main className={style.Container}>
     <Head>
       <title>Tecknchips</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Head>
-    <header className={style.header__main}>{children}</header>
-    <div className={style.toto}>
-      <Guides />
-      <Proyects />
-    </div>
+    <header className={style.Container__Child}>{children}</header>
+    <Guides />
+    <Proyects />
     <Footer />
   </main>
 );

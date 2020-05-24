@@ -1,0 +1,65 @@
+.header__title {
+  line-height: 1.15;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 0 3rem 0;
+}
+
+.header__title span {
+  color: #0070f3;
+}
+
+.header__image {
+  display: none;
+}
+
+.header__buttons {
+  display: none;
+}
+
+@media screen and (min-width: 750px) {
+  .header__buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  //Componente BTN
+  .btn {
+    display: block;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: "800px") {
+  .header__title {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__buttons {
+    justify-content: start;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .header__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__content {
+    width: 70%;
+  }
+
+  .header__image {
+    display: block;
+  }
+}

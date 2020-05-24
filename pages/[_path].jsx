@@ -9,7 +9,7 @@ const Test = () => {
   const { _path } = router.query;
 
   return (
-    <Container>
+    <section>
       <header>
         <h1 className="title">{_path}</h1>
         <Link href="/">Volver atras</Link>
@@ -40,7 +40,7 @@ const Test = () => {
           }
         }
       `}</style>
-    </Container>
+    </section>
   );
 };
 

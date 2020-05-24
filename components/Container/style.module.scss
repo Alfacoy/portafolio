@@ -1,38 +1,34 @@
-.container {
+.Container {
   padding: 2rem 1rem;
   margin: 0 auto;
 }
 
-.header__main {
+.Container__Child {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.toto {
-  min-height: 80vh;
-}
-
 @media screen and (min-width: "650px") {
-  .container {
+  .Container {
     padding: 0rem 1rem;
     max-width: 90vw;
   }
 }
 
 @media screen and (min-width: "800px") {
-  .container {
+  .Container {
     max-width: 90vw;
   }
 
-  .header__main {
+  .Container__Child {
     margin-bottom: 3rem;
   }
 }
 
 @media screen and (min-width: "1200px") {
-  .container {
+  .Container {
     max-width: 70vw;
     margin: 0 auto;
   }

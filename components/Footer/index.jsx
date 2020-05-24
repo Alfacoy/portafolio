@@ -1,7 +1,7 @@
 import style from "./style.module.scss";
 
 const Footer = () => (
-  <footer className={style.footer}>
+  <footer className={style.Footer}>
     <a href="https://twitter.com/tecknchips" target="_blank">
       <img src="icon/twitter.svg" alt="Twitter" />
     </a>
