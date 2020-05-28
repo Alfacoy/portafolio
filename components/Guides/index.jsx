@@ -7,7 +7,7 @@ const Guides = () => {
 
   return (
     <section id="guides" className={style.guide}>
-      <h3 className="title__section">Ultimas Guias</h3>
+      <h3 className="title__section">Últimas Guías</h3>
       <div className={style.guide_grid}>
         <Card
           title={infoCard[0].title}
