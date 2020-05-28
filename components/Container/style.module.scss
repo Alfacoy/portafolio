@@ -1,9 +1,9 @@
-.Container {
+.container {
   padding: 2rem 1rem;
   margin: 0 auto;
 }
 
-.Container__Child {
+.container__child {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -11,24 +11,24 @@
 }
 
 @media screen and (min-width: "650px") {
-  .Container {
+  .container {
     padding: 0rem 1rem;
     max-width: 90vw;
   }
 }
 
 @media screen and (min-width: "800px") {
-  .Container {
+  .container {
     max-width: 90vw;
   }
 
-  .Container__Child {
+  .container__Child {
     margin-bottom: 3rem;
   }
 }
 
 @media screen and (min-width: "1200px") {
-  .Container {
+  .container {
     max-width: 70vw;
     margin: 0 auto;
   }

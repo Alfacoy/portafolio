@@ -17,6 +17,16 @@
   display: none;
 }
 
+.btn__back {
+  width: 40%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
 @media screen and (min-width: 750px) {
   .header__buttons {
     display: flex;
@@ -33,6 +43,10 @@
     align-items: center;
     margin-top: 0.5em;
     padding: 1rem;
+  }
+
+  .btn__back {
+    width: 20%;
   }
 }
 

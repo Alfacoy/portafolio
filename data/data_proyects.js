@@ -1,12 +1,15 @@
 const DATA_PROYECTS = [
   {
-    title: "Proyecto 1",
+    title: "Periodico Online",
+    url: "https://github.com/Alfacoy/newsletter",
   },
   {
-    title: "Proyecto 2",
+    title: "Clementina",
+    url: "/",
   },
   {
-    title: "Proyecto 3",
+    title: "PokeDays",
+    url: "/",
   },
 ];
 

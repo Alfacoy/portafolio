@@ -2,10 +2,10 @@ import DATA from "../../data/data_proyects";
 import Card from "../Card";
 
 const ListProyects = () => {
-  const lista = DATA.map((item) => {
+  const lista = DATA.map((item, index) => {
     return (
-      <li>
-        <Card title={item.title} href={""} />
+      <li key={index}>
+        <Card title={item.title} href={item.url} />
       </li>
     );
   });

@@ -1,47 +1,27 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
-import Container from "../components/Container";
 import ListGuides from "../components/ListGuides";
 import ListProyects from "../components/ListProyects";
 
-const Test = () => {
+const List = () => {
   const router = useRouter();
   const { _path } = router.query;
 
   return (
     <section>
-      <header>
-        <h1 className="title">{_path}</h1>
-        <Link href="/">Volver atras</Link>
+      <header className="path__header">
+        <h1>{_path}</h1>
       </header>
 
-      {_path == "lista de guias" ? <ListGuides /> : <ListProyects />}
+      <article className="path__container">
+        <Link href="/">
+          <a className="btn__back">Volver atras</a>
+        </Link>
 
-      <style jsx>{`
-        header {
-          margin-bottom: 1.5em;
-          text-align: center;
-        }
-
-        .title {
-          line-height: 1.15;
-          font-size: 3rem;
-          text-transform: uppercase;
-          margin: 0 0 50px 0;
-        }
-
-        .title span {
-          color: #0070f3;
-        }
-
-        @media screen and (min-width: "800px") {
-          .title {
-            font-size: 4rem;
-          }
-        }
-      `}</style>
+        {_path == "lista de guias" ? <ListGuides /> : <ListProyects />}
+      </article>
     </section>
   );
 };
 
-export default Test;
+export default List;

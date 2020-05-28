@@ -8,7 +8,7 @@ const DATA_GUIDES = [
     url: "https://www.notion.so/Flexbox-ca880dc0215747a4a1b94cd55de3f68b",
   },
   {
-    title: "Grid",
+    title: "CSS Grid",
     url: "https://www.notion.so/Grid-88eb436451bb4277ac40a15893dcfc50",
   },
   {

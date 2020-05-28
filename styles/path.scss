@@ -1,1 +1,18 @@
-//Contenido de PATH
+.path__container {
+  padding: 0 10px;
+}
+
+.path__header {
+  text-align: center;
+  padding: 2rem 0;
+  margin-bottom: 1.5em;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 800px) {
+  .path__container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
