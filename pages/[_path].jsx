@@ -10,7 +10,7 @@ const List = () => {
   return (
     <section>
       <header className="path__header">
-        <h1>{_path}</h1>
+        <h2>{_path}</h2>
       </header>
 
       <article className="path__container">

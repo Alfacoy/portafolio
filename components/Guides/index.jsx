@@ -1,9 +1,9 @@
-import style from "./style.module.scss";
 import Card from "../Card";
 import DATA from "../../data/data_guides";
+import style from "./style.module.scss";
 
 const Guides = () => {
-  const infoCard = [DATA[0], DATA[1], DATA[2]];
+  const infoCard = [DATA.latest[0], DATA.latest[1], DATA.latest[2]];
 
   return (
     <section id="guides" className={style.guide}>
