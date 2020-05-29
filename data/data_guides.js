@@ -25,7 +25,7 @@ const DATA_GUIDES = {
     },
     {
       id: 2,
-      title: "Grid Css",
+      title: "CSS Grid",
       url: "https://www.notion.so/CSS-Grid-88eb436451bb4277ac40a15893dcfc50",
       type: "css",
     },
