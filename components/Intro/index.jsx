@@ -17,7 +17,7 @@ const Intro = () => (
         <p>
           Si buscas conocer más sobre mi, descarga el{" "}
           <a href="files/cv.pdf" target="_blank">
-            <span>curriculum</span>
+            <span>currículum</span>
           </a>{" "}
           o visita mi perfil de{" "}
           <a
@@ -36,7 +36,7 @@ const Intro = () => (
             className="btn"
             rel="noopener noreferrer"
           >
-            Curriculum
+            Currículum
           </a>
 
           <a href="#guides" className="btn">
