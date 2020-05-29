@@ -9,13 +9,13 @@
   color: #0070f3;
 }
 
-.header__image {
-  display: none;
-}
-
 .header__buttons {
   display: flex;
   justify-content: space-around;
+}
+
+.header__image {
+  display: none;
 }
 
 //Componente BTN
@@ -30,24 +30,15 @@
   padding: 1rem;
 }
 
-.btn__back {
-  width: 40%;
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  margin-bottom: 1rem;
+.header__content span {
+  color: #0070f3;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 750px) {
   .header__buttons {
     display: flex;
-    justify-content: space-between;
-  }
-
-  .btn__back {
-    width: 20%;
+    justify-content: space-around;
   }
 }
 
@@ -61,7 +52,6 @@
   .header__buttons {
     justify-content: start;
   }
-
   .btn {
     margin-right: 1rem;
   }

@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
+import CustomHead from "../components/CustomHead";
 import ListGuides from "../components/ListGuides";
 import ListProyects from "../components/ListProyects";
 
@@ -8,12 +9,13 @@ const List = () => {
   const { _path } = router.query;
 
   return (
-    <section>
+    <section className="path__container">
+      <CustomHead />
       <header className="path__header">
-        <h1>{_path}</h1>
+        <h2>{_path}</h2>
       </header>
 
-      <article className="path__container">
+      <article>
         <Link href="/">
           <a className="btn__back">Volver atras</a>
         </Link>

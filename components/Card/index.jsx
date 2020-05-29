@@ -1,18 +1,30 @@
 import Link from "next/link";
 import style from "./style.module.scss";
 
-const Card = ({ title, href, item, link, path }) => {
-  if (link) {
-    return (
-      <Link href={href} as={path}>
-        <a className={`${style.card} ${item}`}>
-          <p>{title}</p>
-        </a>
-      </Link>
-    );
+const Card = ({ title, href, path, custom }) => {
+  const str = href || "";
+
+  if (str.slice(0, 1) == "/") {
+    if (str.slice(0, 2) == "/[") {
+      return (
+        <Link href={href} as={path}>
+          <a className={`${style.card} ${custom}`}>
+            <p>{title}</p>
+          </a>
+        </Link>
+      );
+    } else {
+      return (
+        <Link href={href}>
+          <a className={`${style.card} ${custom}`}>
+            <p>{title}</p>
+          </a>
+        </Link>
+      );
+    }
   } else {
     return (
-      <a className={`${style.card} ${item}`} href={href} target="_blank">
+      <a className={`${style.card} ${custom}`} href={href} target="_blank">
         <p>{title}</p>
       </a>
     );

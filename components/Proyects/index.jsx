@@ -12,27 +12,26 @@ const Proyects = () => {
         <Card
           title={infoCard[0].title}
           href={infoCard[0].url}
-          item={style.proyect_grid__1}
           path={"/lista de proyectos"}
+          custom={style.proyect_grid__1}
         />
         <Card
           title={infoCard[1].title}
           href={infoCard[1].url}
-          item={style.proyect_grid__2}
           path={"/lista de proyectos"}
+          custom={style.proyect_grid__2}
         />
         <Card
           title={infoCard[2].title}
           href={infoCard[2].url}
-          item={style.proyect_grid__3}
           path={"/lista de proyectos"}
+          custom={style.proyect_grid__3}
         />
         <Card
           title={"Ver Más"}
           href={"/[_path]"}
-          item={style.proyect_grid__4}
-          link={true}
           path={"/lista de proyectos"}
+          custom={style.proyect_grid__4}
         />
       </div>
     </section>

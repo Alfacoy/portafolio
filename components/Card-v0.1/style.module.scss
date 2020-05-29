@@ -1,0 +1,15 @@
+.card {
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5em;
+}
+
+@media screen and (min-width: 800) {
+  .card {
+    margin-top: 0;
+  }
+}
