@@ -20,13 +20,22 @@ const Intro = () => (
             <span>curriculum</span>
           </a>{" "}
           o visita mi perfil de{" "}
-          <a href="https://www.linkedin.com/in/durand18/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/durand18/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span>Linkedin</span>
           </a>
           .
         </p>
         <div className={style.header__buttons}>
-          <a href="files/cv.pdf" target="_blank" className="btn">
+          <a
+            href="files/cv.pdf"
+            target="_blank"
+            className="btn"
+            rel="noopener noreferrer"
+          >
             Curriculum
           </a>
 

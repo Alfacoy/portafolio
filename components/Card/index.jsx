@@ -24,7 +24,12 @@ const Card = ({ title, href, path, custom }) => {
     }
   } else {
     return (
-      <a className={`${style.card} ${custom}`} href={href} target="_blank">
+      <a
+        className={`${style.card} ${custom}`}
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <p>{title}</p>
       </a>
     );
