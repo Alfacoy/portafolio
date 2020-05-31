@@ -1,14 +1,14 @@
 const DATA_PROYECTS = [
   {
-    title: "Periodico Online",
-    url: "https://github.com/Alfacoy/newsletter",
-  },
-  {
-    title: "Clementina",
+    title: "Próximamente",
     url: "/",
   },
   {
-    title: "PokeDays",
+    title: "Próximamente",
+    url: "/",
+  },
+  {
+    title: "Próximamente",
     url: "/",
   },
 ];

@@ -13,6 +13,10 @@ const CustomHead = () => (
         Actualmente me encuentro estudiando Análisis en Sistemas en el Instituto Beltran."
     />
     <meta name="author" content="Brian Durand" />
+    <meta
+      name="google-site-verification"
+      content="AcK-Cxj6QcpGYn6MbpuzPpxZYVnRv0D94H4oenOX78A"
+    />
     {/* Twitter */}
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:creator" content="@tecknchips" />

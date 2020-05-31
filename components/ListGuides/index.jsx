@@ -43,6 +43,16 @@ const ListGuide = () => {
       );
     });
 
+  const lista_sistemas = DATA.guides
+    .filter((item) => item.type == "sistemas")
+    .map((item) => {
+      return (
+        <li key={item.id}>
+          <Card title={item.title} href={item.url} />
+        </li>
+      );
+    });
+
   return (
     <>
       <h3 className={style.title__guide}>JAVASCRIPT</h3>
@@ -56,6 +66,9 @@ const ListGuide = () => {
 
       <h3 className={style.title__guide}>TERMINAL</h3>
       <ul>{lista_terminal}</ul>
+
+      <h3 className={style.title__guide}>SISTEMAS</h3>
+      <ul>{lista_sistemas}</ul>
     </>
   );
 };

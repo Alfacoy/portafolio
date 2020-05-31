@@ -48,6 +48,13 @@ const DATA_GUIDES = {
         "https://www.notion.so/Geolocalizaci-n-HTML-a6170acc551942be955e86d84c0fce3c",
       type: "api",
     },
+    {
+      id: 6,
+      title: "Diagrama de Flujo de Datos",
+      url:
+        "https://www.notion.so/tecknchips/Diagrama-de-Flujo-de-Datos-634bd2b62c8a45dbaa38aee63382888a",
+      type: "sistemas",
+    },
   ],
 };
 
