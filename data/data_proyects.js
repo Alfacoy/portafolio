@@ -1,7 +1,7 @@
 const DATA_PROYECTS = [
   {
-    title: "Próximamente",
-    url: "/",
+    title: "Noticiero Online",
+    url: "https://github.com/Alfacoy/newsletter",
   },
   {
     title: "Próximamente",
