@@ -6,9 +6,10 @@ const DATA_GUIDES = {
       type: "javascript",
     },
     {
-      title: "Flexbox",
-      url: "https://www.notion.so/Flexbox-ca880dc0215747a4a1b94cd55de3f68b",
-      type: "css",
+      title: "Diagrama de Flujo de Datos",
+      url:
+        "https://www.notion.so/tecknchips/Diagrama-de-Flujo-de-Datos-634bd2b62c8a45dbaa38aee63382888a",
+      type: "sistemas",
     },
     {
       title: "CSS Grid",
