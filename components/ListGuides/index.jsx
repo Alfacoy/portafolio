@@ -61,12 +61,6 @@ const ListGuide = () => {
       <h3 className={style.title__guide}>CSS</h3>
       <ul>{lista_css}</ul>
 
-      <h3 className={style.title__guide}>API</h3>
-      <ul>{lista_api}</ul>
-
-      <h3 className={style.title__guide}>TERMINAL</h3>
-      <ul>{lista_terminal}</ul>
-
       <h3 className={style.title__guide}>SISTEMAS</h3>
       <ul>{lista_sistemas}</ul>
     </>
