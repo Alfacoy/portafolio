@@ -1,11 +1,11 @@
 const DATA_PROYECTS = [
   {
-    title: "Noticiero Online",
-    url: "https://github.com/Alfacoy/newsletter",
+    title: "El número secreto",
+    url: "https://github.com/Alfacoy/the_secret_number",
   },
   {
-    title: "Próximamente",
-    url: "/",
+    title: "Noticiero Online",
+    url: "https://github.com/Alfacoy/newsletter",
   },
   {
     title: "Próximamente",

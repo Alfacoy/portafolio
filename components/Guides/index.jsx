@@ -3,7 +3,7 @@ import DATA from "../../data/data_guides";
 import style from "./style.module.scss";
 
 const Guides = () => {
-  const infoCard = [DATA.latest[0], DATA.latest[1], DATA.latest[2]];
+  const infoCard = [DATA.newest[0], DATA.newest[1], DATA.newest[2]];
 
   return (
     <section id="guides" className={style.guide}>

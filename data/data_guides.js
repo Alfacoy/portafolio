@@ -1,5 +1,5 @@
 const DATA_GUIDES = {
-  latest: [
+  newest: [
     {
       title: "Sanity",
       url: "https://www.notion.so/Sanity-84b4f7f719eb485c9ea87ddf8f497872",
