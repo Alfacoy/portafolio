@@ -45,7 +45,7 @@ const Intro = () => (
         </div>
       </div>
       <div className={style.header__image}>
-        <img src="images/test.png" alt="Imagen de test" />
+        <img src="images/front.jpeg" alt="Mi persona haciendo código." />
       </div>
     </div>
   </>
