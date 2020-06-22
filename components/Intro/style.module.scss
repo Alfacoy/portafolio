@@ -22,18 +22,6 @@
   display: none;
 }
 
-//Componente BTN
-.btn {
-  display: block;
-  width: 40%;
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0.5em;
-  padding: 1rem;
-}
-
 .header__content span {
   color: #0070f3;
   font-weight: bold;
@@ -42,22 +30,13 @@
 @media screen and (min-width: 750px) {
   .header__buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
   }
 }
 
 @media screen and (min-width: "800px") {
   .header__title {
     font-size: 4rem;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .header__buttons {
-    justify-content: start;
-  }
-  .btn {
-    margin-right: 1rem;
   }
 }
 
