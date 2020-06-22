@@ -28,7 +28,7 @@ const CustomHead = () => (
     />
     <meta
       property="og:image"
-      content="https://tecknchips.now.sh/images/test.png"
+      content="https://tecknchips.now.sh/images/front.jpeg"
     />
     {/* Facebook */}
     <meta property="og:url" content="https://tecknchips.now.sh/" />
@@ -41,7 +41,7 @@ const CustomHead = () => (
     />
     <meta
       property="og:image"
-      content="https://tecknchips.now.sh/images/test.png"
+      content="https://tecknchips.now.sh/images/front.jpeg"
     />
   </Head>
 );
