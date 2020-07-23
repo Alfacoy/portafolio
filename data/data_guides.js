@@ -1,9 +1,10 @@
 const DATA_GUIDES = {
   newest: [
     {
-      title: "Sanity",
-      url: "https://www.notion.so/Sanity-84b4f7f719eb485c9ea87ddf8f497872",
-      type: "javascript",
+      title: "Python",
+      url:
+        "https://www.notion.so/tecknchips/Python-8ef09227c1f74704ba494e1e7da544bb",
+      type: "python",
     },
     {
       title: "Diagrama de Flujo de Datos",
@@ -36,6 +37,13 @@ const DATA_GUIDES = {
       url:
         "https://www.notion.so/tecknchips/Diagrama-de-Flujo-de-Datos-634bd2b62c8a45dbaa38aee63382888a",
       type: "sistemas",
+    },
+    {
+      id: 3,
+      title: "Python Básico",
+      url:
+        "https://www.notion.so/tecknchips/Python-8ef09227c1f74704ba494e1e7da544bb",
+      type: "python",
     },
   ],
 };
