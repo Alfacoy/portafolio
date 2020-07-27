@@ -8,7 +8,7 @@ const Guides = () => {
   return (
     <section id="guides" className={style.guide}>
       <h3 className="title__section">Últimas Guías</h3>
-      <div className={style.guide_grid}>
+      <article className={style.guide_grid}>
         <Card
           title={infoCard[0].title}
           href={infoCard[0].url}
@@ -33,7 +33,7 @@ const Guides = () => {
           path={"/lista de guias"}
           custom={style.guide_grid__4}
         />
-      </div>
+      </article>
     </section>
   );
 };

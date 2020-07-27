@@ -1,7 +1,7 @@
 import style from "./style.module.scss";
 
-const Intro = () => (
-  <>
+const Header = () => (
+  <header className={style.container__Child}>
     <h1 className={style.header__title}>
       Brian Durand <span>Frontend Dev</span>
     </h1>
@@ -48,7 +48,7 @@ const Intro = () => (
         <img src="images/front.jpeg" alt="Mi persona haciendo código." />
       </div>
     </div>
-  </>
+  </header>
 );
 
-export default Intro;
+export default Header;

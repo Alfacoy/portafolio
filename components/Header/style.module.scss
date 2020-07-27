@@ -1,3 +1,10 @@
+.container__Child {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .header__title {
   line-height: 1.15;
   font-size: 3rem;
@@ -37,6 +44,9 @@
 @media screen and (min-width: "800px") {
   .header__title {
     font-size: 4rem;
+  }
+  .container__Child {
+    margin-bottom: 3rem;
   }
 }
 

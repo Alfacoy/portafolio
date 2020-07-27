@@ -1,8 +1,13 @@
 import Container from "../components/Container";
-import Intro from "../components/Intro";
+import Header from "../components/Header";
+import Guides from "../components/Guides";
+import Proyects from "../components/Proyects";
+
 const Home = () => (
   <Container>
-    <Intro />
+    <Header />
+    <Guides />
+    <Proyects />
   </Container>
 );
 

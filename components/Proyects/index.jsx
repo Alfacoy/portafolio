@@ -8,7 +8,7 @@ const Proyects = () => {
   return (
     <section className={style.proyects}>
       <h3 className="title__section">Proyectos</h3>
-      <div className={style.proyect_grid}>
+      <article className={style.proyect_grid}>
         <Card
           title={infoCard[0].title}
           href={infoCard[0].url}
@@ -33,7 +33,7 @@ const Proyects = () => {
           path={"/lista de proyectos"}
           custom={style.proyect_grid__4}
         />
-      </div>
+      </article>
     </section>
   );
 };
