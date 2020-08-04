@@ -45,7 +45,7 @@ const Header = () => (
         </div>
       </div>
       <div className={style.header__image}>
-        <img src="images/front.jpeg" alt="Mi persona haciendo código." />
+        <img src="images/front__image.png" alt="Mi persona haciendo código." />
       </div>
     </div>
   </header>

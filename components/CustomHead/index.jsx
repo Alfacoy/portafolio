@@ -28,10 +28,10 @@ const CustomHead = () => (
     />
     <meta
       property="og:image"
-      content="https://tecknchips.now.sh/images/front.jpeg"
+      content="https://tecknchips.com/images/front__image.png"
     />
     {/* Facebook */}
-    <meta property="og:url" content="https://tecknchips.now.sh/" />
+    <meta property="og:url" content="https://tecknchips.com" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Brian Durand Frontend Dev" />
     <meta
@@ -41,7 +41,7 @@ const CustomHead = () => (
     />
     <meta
       property="og:image"
-      content="https://tecknchips.now.sh/images/front.jpeg"
+      content="https://tecknchips.com/images/front__image.png"
     />
   </Head>
 );
