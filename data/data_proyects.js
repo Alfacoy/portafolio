@@ -4,6 +4,10 @@ const DATA_PROYECTS = [
     url: "https://elnumerosecreto.now.sh/",
   },
   {
+    title: "Autenticación con Google",
+    url: "https://user-profile.vercel.app/",
+  },
+  {
     title: "Web portafolio",
     url: "https://alfacoy.github.io/Ninanbu-Studio/",
   },
