@@ -13,25 +13,25 @@ const Proyects = () => {
           title={infoCard[0].title}
           href={infoCard[0].url}
           path={"/lista de proyectos"}
-          custom={style.proyect_grid__1}
+          custom={`${style.proyect_grid__1} bg__blue`}
         />
         <Card
           title={infoCard[1].title}
           href={infoCard[1].url}
           path={"/lista de proyectos"}
-          custom={style.proyect_grid__2}
+          custom={`${style.proyect_grid__2} bg__blue`}
         />
         <Card
           title={infoCard[2].title}
           href={infoCard[2].url}
           path={"/lista de proyectos"}
-          custom={style.proyect_grid__3}
+          custom={`${style.proyect_grid__3} bg__blue`}
         />
         <Card
           title={"Ver Más"}
           href={"/[_path]"}
           path={"/lista de proyectos"}
-          custom={style.proyect_grid__4}
+          custom={`${style.proyect_grid__4} bg__yellow`}
         />
       </article>
     </section>

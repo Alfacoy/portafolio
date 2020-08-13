@@ -33,13 +33,13 @@ const Header = () => (
           <a
             href="files/cv.pdf"
             target="_blank"
-            className="btn"
+            className="btn bg__blue"
             rel="noopener noreferrer"
           >
             Currículum
           </a>
 
-          <a href="#guides" className="btn">
+          <a href="#guides" className="btn bg__yellow">
             Ver Más
           </a>
         </div>

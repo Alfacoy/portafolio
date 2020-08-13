@@ -5,7 +5,7 @@ const ListProyects = () => {
   const lista = DATA.map((item, index) => {
     return (
       <li key={index}>
-        <Card title={item.title} href={item.url} />
+        <Card title={item.title} href={item.url} custom={"bg__blue"} />
       </li>
     );
   });

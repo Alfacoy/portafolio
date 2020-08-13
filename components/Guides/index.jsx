@@ -12,26 +12,26 @@ const Guides = () => {
         <Card
           title={infoCard[0].title}
           href={infoCard[0].url}
-          custom={style.guide_grid__1}
+          custom={`${style.guide_grid__1} bg__blue`}
         />
 
         <Card
           title={infoCard[1].title}
           href={infoCard[1].url}
-          custom={style.guide_grid__2}
+          custom={`${style.guide_grid__2} bg__blue`}
         />
 
         <Card
           title={infoCard[2].title}
           href={infoCard[2].url}
-          custom={style.guide_grid__3}
+          custom={`${style.guide_grid__3} bg__blue`}
         />
 
         <Card
           title={"Ver Más"}
           href={"/[_path]"}
           path={"/lista de guias"}
-          custom={style.guide_grid__4}
+          custom={`${style.guide_grid__4} bg__yellow`}
         />
       </article>
     </section>

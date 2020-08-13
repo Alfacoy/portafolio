@@ -8,7 +8,7 @@ const ListGuide = () => {
     .map((item) => {
       return (
         <li key={item.id}>
-          <Card title={item.title} href={item.url} />
+          <Card title={item.title} href={item.url} custom={"bg__blue"} />
         </li>
       );
     });
@@ -18,7 +18,7 @@ const ListGuide = () => {
     .map((item) => {
       return (
         <li key={item.id}>
-          <Card title={item.title} href={item.url} />
+          <Card title={item.title} href={item.url} custom={"bg__blue"} />
         </li>
       );
     });
@@ -28,7 +28,7 @@ const ListGuide = () => {
     .map((item) => {
       return (
         <li key={item.id}>
-          <Card title={item.title} href={item.url} />
+          <Card title={item.title} href={item.url} custom={"bg__blue"} />
         </li>
       );
     });
@@ -38,7 +38,7 @@ const ListGuide = () => {
     .map((item) => {
       return (
         <li key={item.id}>
-          <Card title={item.title} href={item.url} />
+          <Card title={item.title} href={item.url} custom={"bg__blue"} />
         </li>
       );
     });
@@ -48,7 +48,7 @@ const ListGuide = () => {
     .map((item) => {
       return (
         <li key={item.id}>
-          <Card title={item.title} href={item.url} />
+          <Card title={item.title} href={item.url} custom={"bg__blue"} />
         </li>
       );
     });
@@ -58,7 +58,7 @@ const ListGuide = () => {
     .map((item) => {
       return (
         <li key={item.id}>
-          <Card title={item.title} href={item.url} />
+          <Card title={item.title} href={item.url} custom={"bg__blue"} />
         </li>
       );
     });

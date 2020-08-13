@@ -18,7 +18,7 @@ const List = () => {
 
         <article>
           <Link href="/">
-            <a className="btn__back">Volver atrás</a>
+            <a className="btn__back bg__yellow">Volver atrás</a>
           </Link>
 
           {_path == "lista de guias" ? <ListGuides /> : <ListProyects />}
