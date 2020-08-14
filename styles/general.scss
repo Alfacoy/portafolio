@@ -8,6 +8,10 @@ body {
   scroll-behavior: smooth;
 }
 
+h2 {
+  margin: 0;
+}
+
 img {
   display: block;
   width: 100%;
@@ -36,5 +40,5 @@ a:visited,
 a:link,
 a:hover,
 a:active {
-  color: black;
+  color: $color_dark;
 }

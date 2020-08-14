@@ -1,7 +1,9 @@
+@import "../../styles/variables.scss";
+
 .card {
   display: block;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid $color_dark;
   display: flex;
   justify-content: center;
   align-items: center;

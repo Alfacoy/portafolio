@@ -1,3 +1,4 @@
+//Style
 import style from "./style.module.scss";
 
 const Header = () => (
@@ -33,13 +34,13 @@ const Header = () => (
           <a
             href="files/cv.pdf"
             target="_blank"
-            className="btn bg__blue"
+            className="btn effectHoverBlue"
             rel="noopener noreferrer"
           >
             Currículum
           </a>
 
-          <a href="#guides" className="btn bg__yellow">
+          <a href="#guides" className="btn effectHoverRose">
             Ver Más
           </a>
         </div>

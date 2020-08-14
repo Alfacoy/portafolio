@@ -1,5 +1,10 @@
+//Components
 import Card from "../Card";
+
+//Data
 import DATA from "../../data/data_guides";
+
+//Style
 import style from "./style.module.scss";
 
 const Guides = () => {
@@ -12,26 +17,26 @@ const Guides = () => {
         <Card
           title={infoCard[0].title}
           href={infoCard[0].url}
-          custom={`${style.guide_grid__1} bg__blue`}
+          custom={`${style.guide_grid__1} effectHoverBlue opacityEffect`}
         />
 
         <Card
           title={infoCard[1].title}
           href={infoCard[1].url}
-          custom={`${style.guide_grid__2} bg__blue`}
+          custom={`${style.guide_grid__2} effectHoverBlue opacityEffect`}
         />
 
         <Card
           title={infoCard[2].title}
           href={infoCard[2].url}
-          custom={`${style.guide_grid__3} bg__blue`}
+          custom={`${style.guide_grid__3} effectHoverBlue opacityEffect`}
         />
 
         <Card
           title={"Ver Más"}
           href={"/[_path]"}
           path={"/lista de guias"}
-          custom={`${style.guide_grid__4} bg__yellow`}
+          custom={`${style.guide_grid__4} effectHoverRose`}
         />
       </article>
     </section>
