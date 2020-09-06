@@ -1,5 +1,8 @@
+//Components
 import CustomHead from "../CustomHead";
 import Footer from "../Footer";
+
+//Style
 import style from "./style.module.scss";
 
 const Container = ({ children }) => (

@@ -1,0 +1,49 @@
+//Title
+.title__section {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+//Btn
+.btn {
+  display: block;
+  width: 40%;
+  border: 1px solid $color_dark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.btn__back {
+  width: 50%;
+}
+
+@media screen and (min-width: 750px) {
+  .btn {
+    margin-right: 1rem;
+  }
+
+  .btn__back {
+    width: 20%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .opacityEffect {
+    opacity: 0.5;
+  }
+
+  .opacityEffect:hover {
+    opacity: 1;
+  }
+
+  .effectHoverBlue:hover {
+    @include hoverEffect($color_blue);
+  }
+
+  .effectHoverRose:hover {
+    @include hoverEffect($color_rose);
+  }
+}

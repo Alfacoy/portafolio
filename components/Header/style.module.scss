@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .container__Child {
   min-height: 100vh;
   display: flex;
@@ -13,7 +15,7 @@
 }
 
 .header__title span {
-  color: #0070f3;
+  color: $color_blue;
 }
 
 .header__content {
@@ -30,7 +32,7 @@
 }
 
 .header__content span {
-  color: #0070f3;
+  color: $color_blue;
   font-weight: bold;
 }
 
