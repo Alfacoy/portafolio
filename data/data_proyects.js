@@ -1,7 +1,7 @@
 const DATA_PROYECTS = [
   {
     title: "Sharit",
-    url: "https://share-it.vercel.app/",
+    url: "https://sharit.vercel.app/",
   },
   {
     title: "Web portafolio",
