@@ -1,15 +1,20 @@
 const DATA_PROYECTS = [
   {
-    title: "El número secreto",
-    url: "https://elnumerosecreto.now.sh/",
-  },
-  {
-    title: "Autenticación con Google",
-    url: "https://user-profile.vercel.app/",
+    title: "Sharit",
+    url: "https://share-it.vercel.app/",
   },
   {
     title: "Web portafolio",
     url: "https://alfacoy.github.io/Ninanbu-Studio/",
+  },
+  {
+    title: "El número secreto",
+    url: "https://elnumerosecreto.now.sh/",
+  },
+
+  {
+    title: "Autenticación con Google",
+    url: "https://user-profile.vercel.app/",
   },
   {
     title: "Blog de videojuegos",
