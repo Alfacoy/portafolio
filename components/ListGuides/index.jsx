@@ -1,5 +1,10 @@
+//Components
 import Card from "../Card";
+
+//Data
 import DATA from "../../data/data_guides";
+
+//Style
 import style from "./style.module.scss";
 
 const ListGuide = () => {
@@ -8,7 +13,11 @@ const ListGuide = () => {
     .map((item) => {
       return (
         <li key={item.id}>
-          <Card title={item.title} href={item.url} custom={"bg__blue"} />
+          <Card
+            title={item.title}
+            href={item.url}
+            custom={"effectHoverBlue opacityEffect"}
+          />
         </li>
       );
     });
@@ -18,7 +27,11 @@ const ListGuide = () => {
     .map((item) => {
       return (
         <li key={item.id}>
-          <Card title={item.title} href={item.url} custom={"bg__blue"} />
+          <Card
+            title={item.title}
+            href={item.url}
+            custom={"effectHoverBlue opacityEffect"}
+          />
         </li>
       );
     });
@@ -28,7 +41,11 @@ const ListGuide = () => {
     .map((item) => {
       return (
         <li key={item.id}>
-          <Card title={item.title} href={item.url} custom={"bg__blue"} />
+          <Card
+            title={item.title}
+            href={item.url}
+            custom={"effectHoverBlue opacityEffect"}
+          />
         </li>
       );
     });
@@ -38,7 +55,11 @@ const ListGuide = () => {
     .map((item) => {
       return (
         <li key={item.id}>
-          <Card title={item.title} href={item.url} custom={"bg__blue"} />
+          <Card
+            title={item.title}
+            href={item.url}
+            custom={"effectHoverBlue opacityEffect"}
+          />
         </li>
       );
     });
@@ -48,7 +69,11 @@ const ListGuide = () => {
     .map((item) => {
       return (
         <li key={item.id}>
-          <Card title={item.title} href={item.url} custom={"bg__blue"} />
+          <Card
+            title={item.title}
+            href={item.url}
+            custom={"effectHoverBlue opacityEffect"}
+          />
         </li>
       );
     });
@@ -58,7 +83,11 @@ const ListGuide = () => {
     .map((item) => {
       return (
         <li key={item.id}>
-          <Card title={item.title} href={item.url} custom={"bg__blue"} />
+          <Card
+            title={item.title}
+            href={item.url}
+            custom={"effectHoverBlue opacityEffect"}
+          />
         </li>
       );
     });

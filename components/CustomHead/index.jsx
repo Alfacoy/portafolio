@@ -1,3 +1,4 @@
+//Next
 import Head from "next/head";
 
 const CustomHead = () => (

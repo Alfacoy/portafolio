@@ -1,4 +1,7 @@
+//Next
 import Link from "next/link";
+
+//Style
 import style from "./style.module.scss";
 
 const Card = ({ title, href, path, custom }) => {
